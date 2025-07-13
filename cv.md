@@ -25,7 +25,21 @@ Seeking to grow as a web developer by creating high-quality, user-friendly websi
 
 ---
 
-## Experience
+## Code Example:
+`def quadrant(x, y):
+    quat = 0
+    if x>0:
+        if y>0:
+            quat = 1
+        else:
+            quat = 4
+    elif x<0:
+        if y>0:
+            quat = 2
+        else:
+            quat = 3
+    return quat`
+            
 
 ## Education
 
