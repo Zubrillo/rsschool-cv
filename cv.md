@@ -1,11 +1,13 @@
 # Resume
 
 ## Personal Information
-**Name:** Kseniya Vatrushkina  
-**Position:** Web Developer  
-**Email:** jigglypufff@yandex.ru 
-**T-gram:** @KsenSolo 
-**Discord** @Zubrillo
+**Name:** Kseniya Plushkina  
+**Contacts:** 
+
+ ****E-mail:****       jigglypufff@yandex.ru 
+ ****T-gram:****       @KsenSolo             
+ ****Discord:****      @Zubrillo             
+
 **Location:** Moscow, Russia
 
 ---
@@ -32,8 +34,5 @@ JS-FE Pre School | 2025 – 2026
 
 ---
 
-## Additional Information
-- English — Intermediate  
-
-
----
+## Languages
+- English — Premediate  
