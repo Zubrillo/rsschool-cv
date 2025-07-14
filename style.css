@@ -1,0 +1,84 @@
+/* Общие стили для всего документа */
+body {
+  font-family: Arial, sans-serif;
+  /* Шрифт */
+  line-height: 1.6;
+  /* Межстрочный интервал */
+  margin: 20px;
+  background-color: #e9646b5e;
+  /* Светлый фон */
+  color: #9a1717c7;
+  /* Цвет текста */
+}
+
+/* Заголовки разделов */
+h1,
+h2 {
+  color: #711423da;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  border-bottom: 2px solid #711423da;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* Имя и контактная информация вверху */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.contact-info {
+  font-size: 14px;
+}
+
+/* Основной блок резюме */
+.section {
+  margin-top: 20px;
+}
+
+/* Заголовки внутри разделов */
+.section h2 {
+  border-left: 4px solid #2980b9;
+  padding-left: 10px;
+}
+
+/* Стили для списка опыта, навыков и т.д. */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Стиль для выделения ключевых моментов или должностей */
+.highlight {
+  font-weight: bold;
+}
+
+/* Контактная информация (например, телефон, email) */
+.contact-item {
+  margin-bottom: 5px;
+}
+
+.school-logo {
+  width: 1px;
+  height: 1px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(49, 16, 16, 0.3);
+}
