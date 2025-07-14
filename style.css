@@ -1,17 +1,16 @@
-/* Общие стили для всего документа */
 body {
   font-family: Arial, sans-serif;
-  
+
   line-height: 1.6;
-  
+
   margin: 20px;
   background-color: #e9646b5e;
-  
+
   color: #9a1717c7;
-  
+
 }
 
-/* Заголовки разделов */
+
 h1,
 h2 {
   color: #711423da;
@@ -74,5 +73,3 @@ li {
 .contact-item {
   margin-bottom: 5px;
 }
-
-
