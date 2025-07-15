@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>RS School CV</title>
+  <style>
+    body {
+      max-width: 800px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+
+    }
+
+    header,
+    main,
+    footer {
+      margin-bottom: 20px;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #830909;
+    }
+
+    img.avatar {
+      width: auto;
+      max-width: 250px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+    }
+
+    section {
+      margin-top: 20px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      border-bottom: 1px solid #5f0606;
+      padding-bottom: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1> Kseniya Plushkina </h1>
+    <nav>
+
+      <a href="#contacts">Contacts</a>
+      <a href="#objective">Objective</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#code">Code Example</a>
+      <a href="#languages">Languages</a>
+    </nav>
+  </header>
+
+  <main>
+    <img src="assets/ava.png" alt="Author's photo" class="avatar" />
+    <section id="objective">
+      <h2>Objective</h2>
+
+      <p>Seeking to grow as a web developer by creating high-quality, user-friendly websites and applications.
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Git, GitHub</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <section id="code">
+      <h2>Code example</h2>
+      <ul>
+        <br>a, b, c = float(input()), float(input()), float(input())
+        <br>disc = b ** 2 - 4 * a * c
+        <br>if disc < 0 : <br>print("Нет корней")
+          <br>elif disc == 0 :
+          <br>print(-b / (2*a))
+          <br>elif disc > 0 :
+          <br>otv1=( -b + disc ** 0.5) / (2*a)
+          <br>otv2=( -b - disc ** 0.5) / (2*a)
+          <br>print(min(otv1, otv2))
+          <br>print(max(otv1, otv2))
+
+
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>RSS school</h2>
+      <p>JS-FE Pre School | 2025 – 2026</p>
+
+    </section>
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <ul>
+        <li>Email: <a href="mailto:jigglypufff@yandex.ru">jigglypufff@yandex.ru</a></li>
+        <li>Discord: Zubrillo</li>
+        <li>GitHub: <a href="https://github.com/Zubrillo" target="_blank">github.com/Zubrillo</a></li>
+      </ul>
+    </section>
+    <section id="languages">
+      <h2>Languages</h2>
+      <p>- English — Premediate
+    </section>
+
+
+
+
+  </main>
+
+  <footer style="text-align:center;">
+
+    <p>&copy; <span id="year"></span> Zubrillo |
+      <a href="https://github.com/Zubrillo" target="_blank">GitHub</a>
+    </p>
+
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear(); </script>
+
+
+    <p style="margin-top:10px;">
+      <a href="https://rs.school/courses/javascript-ru" target="_blank">
+        <img src="assets/rsschool-logo.svg" alt="Course RS School" style="width:250px; height:auto;" />
+        RS School course
+      </a>
+    </p>
+
+
+
+  </footer>
+
+
+</body>
+
+</html>
