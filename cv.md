@@ -1,4 +1,5 @@
 # Kseniya Solar
+![sexy-smart-old-lady](/rsschool-cv/1774217753022.jpg)
 
 **Contact:**  
 Telegram: [Ksen Solo]
