@@ -1,0 +1,45 @@
+body {
+    background-color: #1b1b1b;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.page {
+    position: relative;
+    background-color: antiquewhite;
+    padding: 50px;
+    width: 900px;
+    box-shadow: 0 20px 60px #f4f0e3;
+
+    border: 1px solid black;
+    border-radius: 6px;
+
+
+}
+
+.watermark {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    color: rgba(197, 58, 58);
+    border: 3px solid rgba(197, 58, 58);
+    border-radius: 10px;
+    transform: rotate(-10deg);
+}
+
+.photo_wrapper {
+    position: absolute;
+    width: 150px;
+    top:60px;
+    left: 150px;
+    transform: rotate(3deg);
+
+
+}
