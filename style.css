@@ -1,0 +1,145 @@
+body {
+    background-color: #1b1b1b;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.page {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 50px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 20px 60px #f4f0e3;
+    border: 1px solid black;
+    border-radius: 6px;
+    position: relative;
+}
+
+.tabs {
+    position: absolute;
+    right: -30px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 5;
+}
+
+.tabs a {
+    writing-mode: vertical-rl;
+    background: antiquewhite;
+    color: #000;
+    padding: 10px 6px;
+    border-radius: 0 6px 6px 0;
+    font-family: 'Courier New', monospace;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #000;
+    border-left: none;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+    transition: 0.2s;
+}
+
+.tabs a:hover {
+    transform: translateX(3px);
+}
+
+
+
+.watermark {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    opacity: 0.7;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    color: rgba(197, 58, 58);
+    border: 3px solid rgba(197, 58, 58);
+    border-radius: 10px;
+    transform: rotate(-10deg);
+    z-index: 1;
+}
+
+.photo_wrapper {
+    
+    float: right;
+    max-width: 250px;
+    width: 30%;
+    margin: 20px 0 20px 20px;
+    transform: rotate(3deg);
+}
+
+.sign {
+    font-size: 15px;
+    text-align: center;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo:hover {
+    transform: rotate(2deg) scale(1.02);
+}
+
+span {
+    font-family: "Patrick Hand", cursive;
+    font-style: italic;
+    opacity: 0.85;
+    letter-spacing: 0.3px;
+    color: #444;
+    font-size: smaller;
+    
+    margin-top: 2px;
+}
+h2 span{
+    display: block;
+
+}
+.intro {
+    font-size: 20px;
+}
+h1{
+    font-size: 36px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+    line-height: 1.2;
+
+}
+h2 {
+    font-size: 26px;
+    margin-top: 22px;
+    margin-bottom: 6px;
+    line-height: 1.2;
+}
+
+a {
+    color: #003366;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-right img {
+    height: 40px;
+    opacity: 0.9;
+    transition: 0.2s;
+}
